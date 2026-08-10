@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int tuoi;
-    double thuNhap;
+    long thuNhap;
     cout<< " nhap tuoi :";
     cin>>tuoi;  
     cout<< " nhap thu nhap :";

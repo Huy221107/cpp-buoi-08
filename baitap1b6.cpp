@@ -1,13 +1,17 @@
 #include <iostream>
 using namespace std;
-int main(){
-    int i;
-    cout<<"nhap vao mot nam bat ky :";
-    cin>>i;
-    if(i%4==0&&i%100!=0||i%400==0){
-        cout<<i<<" la nam nhuan";
+
+int main() {
+    int year;
+
+    cout << "Nhap vao mot nam bat ky: ";
+    cin >> year;
+
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        cout << year << " la nam nhuan" << endl;
+    } else {
+        cout << year << " khong phai la nam nhuan" << endl;
     }
-    else{
-        cout<<i<< " khong phai la nam nhuan";
-    }
+
+    return 0;
 }
