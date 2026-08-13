@@ -19,4 +19,5 @@ int main (){
     else {
         cout<<"yeu";
     }
+    return 0;
 }
