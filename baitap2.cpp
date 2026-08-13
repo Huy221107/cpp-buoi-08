@@ -9,4 +9,5 @@ int main(){
     cout<<"moi nhap c :";
     cin>>c;
     cout<< " so lon nhap la :"<< ((a>b)?((a>c)?a:c):((b>c)?b:c))<<endl;
+    return 0;
 }
