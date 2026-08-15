@@ -16,4 +16,5 @@ int main(){
     else{
         cout<< " khong hop le";
     }
+    return 0;
 }
