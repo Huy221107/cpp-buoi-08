@@ -13,4 +13,5 @@ tong*=i;
     else {
         cout<<n<<" nam trong khoang khong cho phep";
     }
+    return 0;
 }
