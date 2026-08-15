@@ -14,4 +14,5 @@ int main(){
  
     } 
     cout<< "tong = "<< tong;
+    return 0;
 }
